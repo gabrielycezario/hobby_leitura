@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Página sobre o hobby da leitura, com sites para encontrar livros e resenhas.">
+  <title>Meu Hobby Favorito: Leitura</title>
+  <style>
+    :root { --ink:#3b243b; --muted:#776477; --paper:#fbeffb; --pink:#fa6ee5; --line:#e4dae4; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--paper); color:var(--ink); font-family:Arial,Helvetica,sans-serif; line-height:1.6; }
+    header { background:linear-gradient(125deg,#a45ea4,#fa6ee5); color:white; padding:70px 24px 75px; text-align:center; }
+    .eyebrow { font-size:13px; text-transform:uppercase; letter-spacing:3px; color:#e6d1e5; font-weight:700; }
+    h1 { font-family:Georgia,serif; font-size:clamp(30px,5.5vw,56px); line-height:1.17; margin:14px 0; }
+    .subtitle { margin:0 auto; max-width:620px; color:#f0e7f0; font-size:18px; }
+    main { max-width:1160px; padding:46px 22px 60px; margin:auto; }
+    .intro { max-width:780px; margin:0 auto 45px; text-align:center; }
+    h2 { font-family:Georgia,serif; font-size:30px; margin:0 0 12px; }
+    .intro p { color:#3b243b; margin:0; }
+    .cards { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:22px; }
+    .card { background:white; padding:24px; border:1px solid var(--line); border-radius:18px; box-shadow:0 10px 28px #3d173c10; }
+    .card h3 { font-family:Georgia,serif; font-size:25px; margin:0 0 0; }
+    .category { color:var(--pink); text-transform:uppercase; font-size:11px; font-weight:700; letter-spacing:1.5px; margin:3px 0 16px; }
+    .card img { display:block; width:100%; height:auto; aspect-ratio:8/5; border-radius:12px; transition:transform .2s; }
+    .card img:hover { transform:scale(1.025); }
+    .card > p:not(.category):not(.url) { min-height:110px; color:#776477; }
+    a.site-link { color:white; background:var(--pink); padding:11px 14px; border-radius:9px; font-weight:700; display:inline-block; text-decoration:none; }
+    a.site-link:hover { background:#873b8b; }
+    .url { font-size:12px; overflow-wrap:anywhere; color:#776477; }
+    .quote { margin:52px auto 0; padding:28px; max-width:790px; border-left:5px solid #a97aa9; background:#eaf1e9; border-radius:0 14px 14px 0; font-family:Georgia,serif; font-size:22px; text-align:center; }
+    footer { background:#8a3a82; color:#e9dbe7; text-align:center; padding:25px 15px; font-size:14px; }
+    @media (max-width:850px) { .cards {grid-template-columns:1fr;} .card > p:not(.category):not(.url) {min-height:0;} .card {max-width:560px; width:100%; margin:auto;} }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="eyebrow">Livros • Histórias • Imaginação</div>
+    <h1>Meu hobby favorito: Leitura — </h1>
+    <p class="subtitle">Entre páginas e histórias, descubro novas ideias, personagens e mundos.</p>
+  </header>
+  <main>
+    <section class="intro">
+      <h2>Por que gosto de ler?</h2>
+      <p>A leitura é um dos meus hobbies favoritos porque me permite aprender, relaxar e viver várias vidas. Também gosto de descobrir livros novos e acompanhar resenhas de outros leitores. </p>
+      <p>Abaixo estão três sites que fazem parte desse universo:</p>
+    </section>
+    <section class="cards" aria-label="Três sites relacionados à leitura">
+      <article class="card">
+    <h3>Kindle</h3>
+    <p class="category">Leitura digital</p>
+    <a href="https://www.amazon.com.br/kindle" target="_blank" rel="noopener noreferrer" aria-label="Abrir Kindle">
+      <img src="kindle.svg" alt="Ilustração sobre Kindle relacionada à leitura" loading="lazy">
+    </a>
+    <p>No Kindle, posso levar vários livros para qualquer lugar e ler pelo aplicativo ou pelo dispositivo.</p>
+    <a class="site-link" href="https://www.amazon.com.br/kindle" target="_blank" rel="noopener noreferrer">Conhecer o Kindle ↗</a>
+    <p class="url">https://www.amazon.com.br/kindle</p>
+  </article>
+<article class="card">
+    <h3>Amazon Livros</h3>
+    <p class="category">Descobrir novos livros</p>
+    <a href="https://www.amazon.com.br/livros" target="_blank" rel="noopener noreferrer" aria-label="Abrir Amazon Livros">
+      <img src="amazon.svg" alt="Ilustração sobre Amazon Livros relacionada à leitura" loading="lazy">
+    </a>
+    <p>Na Amazon, pesquiso títulos, autores, sinopses e avaliações de leitores antes de escolher a próxima leitura.</p>
+    <a class="site-link" href="https://www.amazon.com.br/livros" target="_blank" rel="noopener noreferrer">Explorar livros na Amazon ↗</a>
+    <p class="url">https://www.amazon.com.br/livros</p>
+  </article>
+<article class="card">
+    <h3>TikTok (BookTok)</h3>
+    <p class="category">Resenhas e recomendações</p>
+    <a href="https://www.tiktok.com/tag/booktok" target="_blank" rel="noopener noreferrer" aria-label="Abrir TikTok (BookTok)">
+      <img src="tiktok.svg" alt="Ilustração sobre TikTok (BookTok) relacionada à leitura" loading="lazy">
+    </a>
+    <p>No BookTok, acompanho resenhas, opiniões e indicações de leitores que me ajudam a descobrir histórias.</p>
+    <a class="site-link" href="https://www.tiktok.com/tag/booktok" target="_blank" rel="noopener noreferrer">Ver resenhas no BookTok ↗</a>
+    <p class="url">https://www.tiktok.com/tag/booktok</p>
+  </article>
+    </section>
+    <blockquote class="quote">“Cada livro é uma nova oportunidade de conhecer outro mundo.”</blockquote>
+  </main>
+  <footer>Atividade de desenvolvimento web • Hobby: Leitura • Gabriely Cezário</footer>
+</body>
+</html>

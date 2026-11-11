@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<rect width="800" height="500" rx="28" fill="#fff0d8"/>
+<circle cx="660" cy="95" r="130" fill="white" opacity=".28"/>
+<circle cx="110" cy="430" r="150" fill="white" opacity=".22"/>
+<g transform="translate(165 66)"><path d="M40 77 Q156 24 270 77 L270 310 Q156 260 40 310Z" fill="#d2a56b" stroke="#88531e" stroke-width="9"/><path d="M270 77 Q379 26 490 77 L490 310 Q379 260 270 310Z" fill="#efc790" stroke="#88531e" stroke-width="9"/><path d="M270 78V310" stroke="#88531e" stroke-width="8"/><path d="M77 126 Q152 102 236 128 M77 157 Q152 133 236 159 M305 128 Q375 102 453 126 M305 159 Q375 133 453 157" fill="none" stroke="#9b744d" stroke-width="7" stroke-linecap="round"/></g>
+<text x="46" y="439" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#8f5019">Amazon Livros</text>
+<text x="46" y="470" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#8f5019">Descobrir novos livros</text>
+</svg>
