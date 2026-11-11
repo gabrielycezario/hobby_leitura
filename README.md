@@ -38,4 +38,4 @@ Praticar conceitos básicos de desenvolvimento web, como utilização de título
 
 ---
 
-**Desenvolvido por:** Gabriely Cezário
+👩‍💻 Desenvolvido por Gabriely Cezario
